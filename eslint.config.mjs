@@ -15,6 +15,11 @@ const eslintConfig = [
     'next/typescript',
     '@rocketseat/eslint-config/next',
   ),
+  {
+    rules: {
+      '@typescript-eslint/no-namespace': 'off',
+    },
+  },
 ]
 
 export default eslintConfig
